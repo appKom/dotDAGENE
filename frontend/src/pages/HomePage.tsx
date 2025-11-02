@@ -90,7 +90,7 @@ export const HomePage = () => {
         </div>
       </section>
       <section className="mx-16 my-32">
-        <div className="flex w-full flex-col items-center justify-center gap-8 border-3 border-black bg-white p-8 text-center md:p-32 md:py-16">
+        <div className="flex w-full flex-col items-center justify-center gap-8 border-3 border-black bg-white p-8 text-center lg:p-32 lg:py-16">
           <h2 className="text-4xl font-medium md:text-6xl">HVEM ER VI?</h2>
           <p className="w-full md:px-48">
             NTNUs nyeste karrieredag innen digitalisering og teknologi.
@@ -101,7 +101,7 @@ export const HomePage = () => {
       </section>
 
       <section className="px-8">
-        <section className="flex flex-col items-stretch justify-center gap-8 md:flex-row">
+        <section className="flex flex-col items-stretch justify-center gap-8 lg:flex-row">
           <ContactUs />
           <div className="bg-dotyellow flex w-full flex-col gap-4 border-3 border-black p-8">
             <h3 className="text-3xl">INTERESSEMELDING</h3>
