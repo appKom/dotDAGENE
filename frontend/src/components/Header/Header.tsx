@@ -32,7 +32,11 @@ export const Header = () => {
             <a
               key={site.href}
               href={site.href}
-              className="cursor-pointer text-xl hover:text-gray-700 ml-6"
+              className={
+                site.title === 'Kontakt oss'
+                  ? 'ml-6 bg-dotgreen px-4 py-2 text-white'
+                  : 'ml-6 cursor-pointer text-xl hover:text-gray-700'
+              }
             >
               {site.title}
             </a>
