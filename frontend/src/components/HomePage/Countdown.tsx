@@ -6,7 +6,7 @@ interface TimeRemaining {
   minutes: number;
 }
 
-export default function Countdown() {
+export const Countdown = () => {
   const targetDate = new Date('2026-03-03T10:00:00');
 
   const calculateTimeRemaining = (): TimeRemaining => {
@@ -66,4 +66,4 @@ export default function Countdown() {
       </div>
     </section>
   );
-}
+};
