@@ -6,7 +6,7 @@ import { Dropdown } from './Dropdown';
 import { useRef, useState } from 'react';
 
 const sites: Site[] = [
-  { title: 'Hjem', href: '/', },
+  { title: 'Hjem', href: '/' },
   { title: 'Kontakt oss', href: '#kontakt' },
 ];
 
@@ -34,7 +34,7 @@ export const Header = () => {
               href={site.href}
               className={
                 site.title === 'Kontakt oss'
-                  ? 'ml-6 bg-dotgreen px-4 py-2 text-white'
+                  ? 'bg-dotgreen ml-6 px-4 py-2 text-white'
                   : 'ml-6 cursor-pointer text-xl hover:text-gray-700'
               }
             >

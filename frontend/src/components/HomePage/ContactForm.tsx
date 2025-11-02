@@ -60,7 +60,7 @@ ${formData.melding}
 
   return (
     <>
-      <div id='kontakt' className="mx-auto max-w-4xl">
+      <div id="kontakt" className="mx-auto max-w-4xl">
         <form onSubmit={handleSubmit} className="space-y-4">
           {/* Bedriftsnavn: full line */}
           <div className="space-y-3">
