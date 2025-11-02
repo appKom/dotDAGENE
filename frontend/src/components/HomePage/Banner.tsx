@@ -1,6 +1,6 @@
 export const Banner = () => {
   return (
-    <section className="mt-20 mb-36 flex h-[150px] w-full items-center justify-center overflow-clip md:h-[300px]">
+    <section className="mt-20 mb-32 flex h-[150px] w-full items-center justify-center overflow-clip md:h-[300px]">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="h-full w-full"

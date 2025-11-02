@@ -9,7 +9,7 @@ export const Header = () => {
         <Link to="/">
           <img src={Logo} alt="Logo" className="w-1/2" />
         </Link>
-        <LinkButton link="/contact" color="green">
+        <LinkButton link="#contact" color="green">
           Kontakt Oss
         </LinkButton>
       </section>
