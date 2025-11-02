@@ -1,3 +1,4 @@
+import { SparklesIcon, UserGroupIcon } from '@heroicons/react/24/outline';
 import { Footer } from '../components/Footer';
 import { Header } from '../components/Header/Header';
 import { ContactForm } from '../components/HomePage/ContactForm';
@@ -44,12 +45,12 @@ export const HomePage = () => {
       <section>
         <div className="mt-16 flex flex-row items-center justify-center gap-2 px-8">
           <div className="bg-dotpurple flex w-full flex-col items-center justify-center gap-4 border-3 border-black p-6 text-white">
-            <div className="h-16 w-16 bg-white"></div>
+            <UserGroupIcon className='h-16 w-16'/>
             <p className="text-2xl">500+ STUDENTER</p>
             <p>Møt kvalifiserte kandidater innen IT og teknologi</p>
           </div>
           <div className="bg-dotgreen flex w-full flex-col items-center justify-center gap-4 border-3 border-black p-6 text-white">
-            <div className="h-16 w-16 bg-white"></div>
+            <SparklesIcon className='h-16 w-16'/>
             <p className="text-2xl">HELT NYTT</p>
             <p>Første dotDAGENE noensinne - vær med fra starten!</p>
           </div>
