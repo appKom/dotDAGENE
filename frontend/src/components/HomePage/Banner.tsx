@@ -1,10 +1,11 @@
 export const Banner = () => {
   return (
-    <section className="mt-20 mb-36 flex h-[300px] w-full items-center justify-center overflow-clip">
+    <section className="mt-20 mb-36 flex h-[150px] w-full items-center justify-center overflow-clip md:h-[300px]">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        // style={{ backgroundColor: 'red' }}
+        className="h-full w-full"
         viewBox="0 10 1000 180"
+        preserveAspectRatio="xMidYMid slice"
       >
         <g>
           <path
