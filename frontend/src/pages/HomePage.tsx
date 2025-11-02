@@ -1,5 +1,7 @@
 import { Footer } from '../components/Footer';
 import { Header } from '../components/Header/Header';
+import { ContactForm } from '../components/HomePage/ContactForm';
+import Countdown from '../components/HomePage/Countdown';
 import { LinkButton } from '../components/LinkButton';
 
 export const HomePage = () => {
@@ -13,24 +15,7 @@ export const HomePage = () => {
         </div>
       </section>
 
-      {/* 3 boxes with countdown */}
-      <section className="mt-16 flex flex-col items-center gap-8">
-        <div className="flex flex-row flex-wrap items-center justify-center gap-2">
-          <div className="bg-dotgreen flex h-36 w-54 flex-col items-center justify-center border-3 border-black text-white">
-            <p className="text-4xl font-bold">148</p>
-            <p>DAGER</p>
-          </div>
-          <div className="bg-dotpurple flex h-36 w-54 flex-col items-center justify-center border-3 border-black text-white">
-            <p className="text-4xl font-bold">11</p>
-            <p>TIMER</p>
-          </div>
-          <div className="bg-dotyellow flex h-36 w-54 flex-col items-center justify-center border-3 border-black text-white">
-            <p className="text-4xl font-bold">23</p>
-            <p>MINUTTER</p>
-          </div>
-        </div>
-        <p>3. mars 2026 · Realfagsbygget U1, Gløshaugen</p>
-      </section>
+      <Countdown />
       <section className="flex h-16 flex-row items-center justify-center"></section>
       <section className="flex h-16 flex-row items-center justify-center gap-8">
         <LinkButton link="/contact" color="green">
@@ -104,7 +89,7 @@ export const HomePage = () => {
       </section>
 
       <section className="px-8">
-        <div className="flex flex-row flex-wrap gap-2">
+        <div className="max-w-md:flex-wrap flex flex-row gap-2">
           <div className="bg-dotgreen flex w-full flex-col gap-4 border-3 border-black p-6 text-white">
             <h3 className="text-3xl">KONTAKT DOTDAGENE</h3>
             <p>
