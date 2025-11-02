@@ -19,7 +19,7 @@ export const InfoWithButton = ({
     <section
       className={
         colorMap.get(color) +
-        ' flex-wrap w-full flex-col gap-4 border-3 border-black p-6 text-white'
+        ' w-full flex-col flex-wrap gap-4 border-3 border-black p-6 text-white'
       }
     >
       <section>{Icon && <Icon className="h-16 w-16" />}</section>

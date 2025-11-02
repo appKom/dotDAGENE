@@ -1,4 +1,9 @@
-import { BuildingOffice2Icon, MicrophoneIcon, SparklesIcon, UserGroupIcon } from '@heroicons/react/20/solid';
+import {
+  BuildingOffice2Icon,
+  MicrophoneIcon,
+  SparklesIcon,
+  UserGroupIcon,
+} from '@heroicons/react/20/solid';
 import { Footer } from '../components/Footer';
 import { Header } from '../components/Header/Header';
 import { LinkButton } from '../components/LinkButton';
@@ -28,7 +33,11 @@ export const HomePage = () => {
       </section>
       <section>
         <section className="mt-16 flex flex-row items-center justify-center gap-2 px-8">
-          <Info titelChildren="500+ STUDENTER" color="purple" icon={UserGroupIcon}>
+          <Info
+            titelChildren="500+ STUDENTER"
+            color="purple"
+            icon={UserGroupIcon}
+          >
             Møt kvalifiserte kandidater innen IT og teknologi
           </Info>
           <Info titelChildren="HELT NYTT" color="green" icon={SparklesIcon}>
@@ -39,11 +48,11 @@ export const HomePage = () => {
       <section>
         <div className="mt-16 flex flex-col flex-wrap items-center gap-4">
           <h2 className="text-4xl font-medium">OPPDAG MULIGHETENE</h2>
-          <p className='text-center'>
+          <p className="text-center">
             dotDAGENE 2026 bringer sammen studenter og bedrifter gjennom en
             rekke aktiviteter og muligheter
           </p>
-          <section className="mt-16 flex flex-col w-full sm:flex-row items-stretch justify-center gap-2 px-8">
+          <section className="mt-16 flex w-full flex-col items-stretch justify-center gap-2 px-8 sm:flex-row">
             <InfoWithButton
               titelChildren="STANDS"
               color="green"
@@ -91,7 +100,7 @@ export const HomePage = () => {
 
       <section className="px-8">
         <section className="max-w-md:flex-wrap flex flex-row gap-2">
-        <ContactUs/>
+          <ContactUs />
           <div className="bg-dotyellow flex w-full flex-col gap-4 border-3 border-black p-8">
             <h3 className="text-3xl">INTERESSEMELDING</h3>
             <p>
