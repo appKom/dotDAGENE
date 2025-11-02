@@ -1,6 +1,5 @@
 import { Footer } from '../components/Footer';
 import { Header } from '../components/Header/Header';
-import { ContactForm } from '../components/HomePage/ContactForm';
 import Countdown from '../components/HomePage/Countdown';
 import { LinkButton } from '../components/LinkButton';
 import { ContactForm } from '../components/HomePage/ContactForm';
