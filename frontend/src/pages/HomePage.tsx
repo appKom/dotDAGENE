@@ -23,14 +23,14 @@ export const HomePage = () => {
       <Banner />
       <Countdown />
       <section className="flex h-16 flex-row items-center justify-center"></section>
-      <section className="flex h-16 flex-col items-center justify-center gap-8 pt-2 sm:flex-row">
+      {/* <section className="flex h-16 flex-col items-center justify-center gap-8 pt-2 sm:flex-row">
         <LinkButton link="/contact" color="green">
           Kontakt oss
         </LinkButton>
         <LinkButton link="/about" color="yellow">
           Les Mer
         </LinkButton>
-      </section>
+      </section> */}
       <section>
         <section className="mt-16 flex flex-col items-center justify-center gap-2 px-8 sm:flex-row">
           <Info
