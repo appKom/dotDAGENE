@@ -6,10 +6,8 @@ import { Dropdown } from './Dropdown';
 import { useRef, useState } from 'react';
 
 const sites: Site[] = [
-  {
-    title: 'Hjem',
-    href: '/',
-  },
+  { title: 'Hjem', href: '/', },
+  { title: 'Kontakt oss', href: '#kontakt' },
 ];
 
 export const Header = () => {
@@ -30,17 +28,15 @@ export const Header = () => {
           <Bars3Icon />
         </button>
         <nav className="hidden md:block">
-          {sites.map((site) => {
-            return (
-              <Link
-                key={site.href}
-                to={site.href}
-                className="cursor-pointer text-xl hover:text-gray-700"
-              >
-                <section>{site.title}</section>
-              </Link>
-            );
-          })}
+          {sites.map((site) => (
+            <a
+              key={site.href}
+              href={site.href}
+              className="cursor-pointer text-xl hover:text-gray-700 ml-6"
+            >
+              {site.title}
+            </a>
+          ))}
         </nav>
       </section>
 
