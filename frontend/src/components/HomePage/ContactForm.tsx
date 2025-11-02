@@ -7,7 +7,6 @@ export const ContactForm = () => {
     kontaktperson: '',
     stilling: '',
     epost: '',
-    telefon: '',
     melding: '',
   });
 
@@ -32,7 +31,6 @@ Bedriftsnavn: ${formData.bedriftsnavn}
 Kontaktperson: ${formData.kontaktperson}
 Stilling: ${formData.stilling}
 E-post: ${formData.epost}
-Telefon: ${formData.telefon}
 
 Melding:
 ${formData.melding}
@@ -49,7 +47,6 @@ ${formData.melding}
         kontaktperson: '',
         stilling: '',
         epost: '',
-        telefon: '',
         melding: '',
       });
       setSubmitStatus('success');
@@ -138,26 +135,6 @@ ${formData.melding}
               onChange={handleInputChange}
               required
               placeholder="din@bedrift.no"
-              className="w-full border-3 border-black bg-white px-3 py-3 text-lg"
-            />
-          </div>
-
-          {/* Telefon: full line */}
-          <div className="space-y-3">
-            <label
-              htmlFor="telefon"
-              className="text-lg font-bold text-gray-800"
-            >
-              Telefon <span className="text-red-500">*</span>
-            </label>
-            <input
-              type="tel"
-              id="telefon"
-              name="telefon"
-              value={formData.telefon}
-              onChange={handleInputChange}
-              required
-              placeholder="+47 123 45 678"
               className="w-full border-3 border-black bg-white px-3 py-3 text-lg"
             />
           </div>

@@ -23,7 +23,7 @@ export const HomePage = () => {
       <Banner />
       <Countdown />
       <section className="flex h-16 flex-row items-center justify-center"></section>
-      <section className="flex h-16 flex-row items-center justify-center gap-8">
+      <section className="flex flex-col pt-2 h-16 sm:flex-row items-center justify-center gap-8">
         <LinkButton link="/contact" color="green">
           Kontakt oss
         </LinkButton>
@@ -32,7 +32,7 @@ export const HomePage = () => {
         </LinkButton>
       </section>
       <section>
-        <section className="mt-16 flex flex-row items-center justify-center gap-2 px-8">
+        <section className="mt-16 flex flex-col sm:flex-row items-center justify-center gap-2 px-8">
           <Info
             titelChildren="500+ STUDENTER"
             color="purple"
@@ -47,12 +47,12 @@ export const HomePage = () => {
       </section>
       <section>
         <div className="mt-16 flex flex-col flex-wrap items-center gap-4">
-          <h2 className="text-4xl font-medium">OPPDAG MULIGHETENE</h2>
+          <h2 className="text-4xl font-medium text-center">OPPDAG MULIGHETENE</h2>
           <p className="text-center">
             dotDAGENE 2026 bringer sammen studenter og bedrifter gjennom en
             rekke aktiviteter og muligheter
           </p>
-          <section className="mt-16 flex w-full flex-col items-stretch justify-center gap-2 px-8 sm:flex-row">
+          <section className="sm:mt-16 mt-5 flex w-full flex-col items-stretch justify-center gap-2 px-8 sm:flex-row">
             <InfoWithButton
               titelChildren="STANDS"
               color="green"
@@ -88,9 +88,9 @@ export const HomePage = () => {
         </div>
       </section>
       <section className="mx-16 my-32">
-        <div className="flex w-full flex-col items-center justify-center gap-8 border-3 border-black bg-white p-32 py-16">
-          <h2 className="text-6xl font-medium">HVEM ER VI?</h2>
-          <p className="w-full px-48 text-center">
+        <div className="flex w-full flex-col items-center text-center justify-center gap-8 border-3 border-black bg-white p-8 md:p-32 md:py-16">
+          <h2 className="text-4xl md:text-6xl font-medium">HVEM ER VI?</h2>
+          <p className="w-full md:px-48">
             NTNUs nyeste karrieredag innen digitalisering og teknologi.
             Arrangert av informatikkstudenter for å koble sammen fremtidens
             IT-talenter med bransjeledende bedrifter.
@@ -99,7 +99,7 @@ export const HomePage = () => {
       </section>
 
       <section className="px-8">
-        <section className="max-w-md:flex-wrap flex flex-row gap-2">
+        <section className="flex flex-col md:flex-row items-stretch justify-center gap-8">
           <ContactUs />
           <div className="bg-dotyellow flex w-full flex-col gap-4 border-3 border-black p-8">
             <h3 className="text-3xl">INTERESSEMELDING</h3>
