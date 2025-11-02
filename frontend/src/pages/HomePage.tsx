@@ -1,6 +1,7 @@
 import { Footer } from '../components/Footer';
 import { Header } from '../components/Header/Header';
 import { LinkButton } from '../components/LinkButton';
+import { ContactForm } from '../components/HomePage/ContactForm';
 
 export const HomePage = () => {
   return (
@@ -121,15 +122,7 @@ export const HomePage = () => {
                 <p>kontakt@dotdagene.no</p>
               </div>
             </div>
-            <div className="bg-dotpurple flex flex-row border-3 border-black p-6">
-              <div className="w-16">
-                <div className="h-8 w-8 bg-white"></div>
-              </div>
-              <div className="flex flex-col">
-                <p>TELEFON</p>
-                <p>+47 123 45 678</p>
-              </div>
-            </div>
+            
             <div className="bg-dotpurple flex flex-row border-3 border-black p-6">
               <div className="w-16">
                 <div className="h-8 w-8 bg-white"></div>
