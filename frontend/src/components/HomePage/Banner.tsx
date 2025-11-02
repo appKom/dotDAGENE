@@ -67,10 +67,6 @@ export const Banner = () => {
           </text>
         </g>
       </svg>
-
-      {/* <div className="text-5xl font-bold">
-          Helt nye karrieredager på NTNU den 3. mars
-        </div> */}
     </section>
   );
 };
